@@ -468,7 +468,7 @@ aside {
     display: block;
     font-size: 14px;
     font-family: "Montserrat";
-    color: rgb( 140, 140, 140 );
+    color: rgb(140, 140, 140);
     line-height: 1.5;
     text-align: center;
     padding: 6px 27px;
@@ -496,15 +496,99 @@ aside {
     height: 338px;
     margin-right: 30px;
     margin-bottom: 30px;
-    background-color: aqua;
+    background-color: rgb(140, 140, 140);
 }
 
-.project-sample:nth-child(3n){
+.project-sample:nth-child(3n) {
     margin-right: 0;
 }
 
 .projects-sample-img1 {
+    width: 371px;
+    height: 271px;
     background: url(images/project1.jpg);
     background-position: top center;
     background-repeat: no-repeat;
 }
+
+.projects-sample-img2 {
+    width: 371px;
+    height: 271px;
+    background: url(images/project2.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.projects-sample-img3 {
+    width: 371px;
+    height: 271px;
+    background: url(images/project3.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.projects-sample-img4 {
+    width: 371px;
+    height: 271px;
+    background: url(images/project4.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.projects-sample-img5 {
+    width: 371px;
+    height: 271px;
+    background: url(images/project5.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.projects-sample-img6 {
+    width: 371px;
+    height: 271px;
+    background: url(images/project6.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.bg {
+    background-color: #fbfaf8;
+    width: 371px;
+    height: 101px;
+    position: relative;
+    margin-top: -34px;
+}
+
+.bg::after {
+    content: '';
+    position: absolute;
+    left: 20px;
+    border: 14px solid transparent;
+    border-bottom: 14px solid #fbfaf8;
+    top: -27px;
+    position: relative;
+}
+
+.project-header {
+  font-size: 20px;
+  font-family: "Raleway";
+  color: rgb( 199, 178, 153 );
+  text-align: left;
+    display: block;
+    position: absolute;
+    left: 30px;
+    top: 28px;
+}
+
+.project-capton {
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: rgb( 209, 209, 209 );
+  line-height: 1.429;
+  text-align: left;
+    display: block;
+    position: absolute;
+    left: 30px;
+    top: 60px;
+}
+
